@@ -1,6 +1,9 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import generatePage from './src/page-template.js';
+import writeFile from './utils/generateMarkdown.js';
+import copyFile from './utils/generateMarkdown.js';
+
 // TODO: Create an array of questions for user input
 const questions = () => {
     return inquirer.prompt([
